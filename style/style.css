@@ -1,5 +1,105 @@
-* {
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 93vh;
+  background-color: rebeccapurple;
+  font-family: monospace;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.login {
+  text-align: center;
+  width: 350px;
+  padding: 38px;
+  background-color: white;
+  border-radius: 35px;
+}
+
+.login:hover {
+  border: 2px solid black;
+}
+
+.login h2 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 28px;
+}
+
+.login .bu {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.login .bu input {
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #000;
+}
+
+.login .bu input:focus ~ span {
+  top: -12px;
+  left: 12px;
+  font-size: 10px;
+  padding: 2px 3px;
+  border: 1px solid #000;
+  background-color: rebeccapurple;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+
+.login .bu span {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  padding: 0;
+  -webkit-transition: 0.6;
+  transition: 0.6;
+  background-color: white;
+}
+
+.login .bu input[type="submit"] {
+  background: fff;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.login .bu input[type="submit"]:hover {
+  background-color: rebeccapurple;
+  color: wheat;
+}
+
+.login a {
+  color: wheat;
+  width: 200px;
+  padding-top: 10px;
+  height: 30px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.login a:hover {
+  background-color: rebeccapurple;
+  color: wheat;
+  border-radius: 30px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 /*# sourceMappingURL=style.css.map */
