@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "veriable.scss"
+        "variable.scss"
     ],
     "names": [],
-    "file": "veriable.css"
+    "file": "variable.css"
 }
